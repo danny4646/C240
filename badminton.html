@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sports Sense | Badminton</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      font-size: 18px;
+    }
+
+    /* Navbar */
+    nav {
+      background-color: #27ae60;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    nav a:hover {
+      color: #f1c40f;
+    }
+
+    /* Hero */
+    header {
+      background: linear-gradient(to right, #2ecc71, #27ae60);
+      color: white;
+      padding: 60px 20px;
+    }
+    .hero-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 1100px;
+      margin: auto;
+      flex-wrap: wrap;
+    }
+    .hero-text {
+      flex: 1;
+      padding-right: 20px;
+    }
+    .hero-text h1 {
+      font-size: 54px;
+      margin-bottom: 10px;
+    }
+    .hero-text p {
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+    .hero-image {
+      flex: 1;
+      text-align: right;
+    }
+    .hero-image img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    .hero-image video {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    /* Sections */
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 36px;
+      color: #2c3e50;
+    }
+
+    /* Cards */
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 30px;
+      transition: transform 0.2s ease;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 180px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #27ae60;
+      font-size: 22px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #27ae60;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+  <div class="logo">Sports Sense</div>
+  <a href="homepage.html">Home</a>
+</nav>
+
+<!-- Hero -->
+<header>
+  <div class="hero-container">
+    <div class="hero-text">
+      <h1>Badminton</h1>
+      <p>Master speed, agility, and precision with badminton using Sports Sense</p>
+    </div>
+    <div class="hero-image">
+      <video autoplay controls loop playsinline>
+          <source src="Badminton 101.mp4" type="video/mp4">
+        </video>
+    </div>
+</header>
+
+<!-- What is Badminton -->
+<section class="section">
+  <h2>What is Badminton?</h2>
+  <p>
+    Badminton is a fast-paced racket sport where players hit a shuttlecock over a net.
+    It can be played in singles or doubles and focuses on speed, footwork, coordination,
+    and strategy. It is one of the fastest racket sports in the world.
+  </p>
+</section>
+
+<!-- Essential Tips -->
+<section class="section">
+  <h2>Essential Tips for Beginners</h2>
+
+  <div class="card">
+    <img src="https://static.vecteezy.com/system/resources/previews/047/401/561/non_2x/cartoon-character-boy-and-girl-playing-badminton-vector.jpg" alt="Badminton Racket Grip">
+    <div>
+      <h3>Tip 1: Learn the Basic Grip</h3>
+      <p>
+        Use a relaxed forehand grip similar to a handshake.
+        A proper grip improves control, power, and prevents wrist injuries.
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://img.freepik.com/premium-vector/happy-girl-playing-badminton-cartoon_9645-3886.jpg" alt="Badminton Footwork">
+    <div>
+      <h3>Tip 2: Focus on Footwork</h3>
+      <p>
+        Good footwork allows you to reach the shuttle early.
+        Practice lunges, side steps, and quick recovery movements.
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://img.freepik.com/premium-vector/cute-boy-girl-cartoon-playing-badminton_924444-11.jpg?w=2000" alt="Badminton Shot">
+    <div>
+      <h3>Tip 3: Learn Basic Shots</h3>
+      <p>
+        Start with clears, drops, and net shots.
+        Accuracy and consistency matter more than power for beginners.
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://static.vecteezy.com/system/resources/previews/036/000/123/original/cute-boy-playing-badminton-cartoon-icon-illustration-people-sport-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg" alt="Badminton Doubles Play">
+    <div>
+      <h3>Tip 4: Positioning & Teamwork</h3>
+      <p>
+        In doubles, communication is essential.
+        Learn front-back and side-side positioning to cover the court effectively.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<!-- Types of Badminton -->
+<section class="section">
+  <h2>Types of Badminton</h2>
+
+  <div class="card">
+    <img src="https://img.freepik.com/premium-vector/little-boy-playing-badminton-cartoon-style_1057-180518.jpg?w=2000" alt="Beginner Badminton">
+    <div>
+      <h3>Beginner Badminton</h3>
+      <p>
+        Focuses on learning basic rules, grip, footwork, and simple rallies.
+        Ideal for building confidence and consistency.
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://img.freepik.com/premium-vector/happy-cute-kid-boy-playing-badminton_97632-1387.jpg?w=900" alt="Intermediate Badminton">
+    <div>
+      <h3>Intermediate Badminton</h3>
+      <p>
+        Players refine techniques such as smashes, drops, and defense.
+        Strategy and movement become more important.
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://img.freepik.com/premium-vector/cute-boy-kid-playing-badminton_330389-501.jpg" alt="Advanced Badminton">
+    <div>
+      <h3>Advanced Badminton</h3>
+      <p>
+        Competitive level with fast rallies, advanced tactics, and high physical demand.
+        Precision, speed, and endurance are critical.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+<!-- Why Learn Badminton -->
+<section class="section">
+  <h2>Why Learn Badminton with Sports Sense?</h2>
+  <p>
+    Sports Sense provides instant guidance on badminton rules, techniques, and drills.
+    Whether you're improving footwork, mastering smashes, or learning match strategies,
+    our AI coach is available anytime to support your learning.
+  </p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2026 Sports Sense | Badminton Guide</p>
+</footer>
+
+<!-- Flowise Cloud Chatbot Embed -->
+<div id="chatbot-container" style="position: fixed; bottom: 20px; right: 20px; width: 350px; max-width: 90%; height: 500px; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.2);"></div>
+
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "ff9c0ca5-0bce-4a1b-a800-3625840f0f9d",
+        apiHost: "https://cloud.flowiseai.com",
+        chatflowConfig: {
+            /* Chatflow Config */
+        },
+        observersConfig: {
+            /* Observers Config */
+        },
+        theme: {
+            button: {
+                backgroundColor: '#3B81F6',
+                right: 20,
+                bottom: 20,
+                size: 48,
+                dragAndDrop: true,
+                iconColor: 'white',
+                customIconSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
+                autoWindowOpen: {
+                    autoOpen: true,
+                    openDelay: 2,
+                    autoOpenOnMobile: false
+                }
+            },
+            tooltip: {
+                showTooltip: true,
+                tooltipMessage: 'Hi There 👋!',
+                tooltipBackgroundColor: 'black',
+                tooltipTextColor: 'white',
+                tooltipFontSize: 16
+            },
+            disclaimer: {
+                title: 'Disclaimer',
+                message: "By using this chatbot, you agree to the <a target=\"_blank\" href=\"https://flowiseai.com/terms\">Terms & Condition</a>",
+                textColor: 'black',
+                buttonColor: '#3b82f6',
+                buttonText: 'Start Chatting',
+                buttonTextColor: 'white',
+                blurredBackgroundColor: 'rgba(0, 0, 0, 0.4)',
+                backgroundColor: 'white'
+            },
+            customCSS: ``,
+            chatWindow: {
+                showTitle: true,
+                showAgentMessages: true,
+                title: 'Flowise Bot',
+                titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
+                welcomeMessage: 'Hello! This is custom welcome message',
+                errorMessage: 'This is a custom error message',
+                backgroundColor: '#ffffff',
+                backgroundImage: 'enter image path or link',
+                height: 700,
+                width: 400,
+                fontSize: 16,
+                starterPrompts: [
+                    "What is a bot?",
+                    "Who are you?"
+                ],
+                starterPromptFontSize: 15,
+                clearChatOnReload: false,
+                sourceDocsTitle: 'Sources:',
+                renderHTML: true,
+                botMessage: {
+                    backgroundColor: '#f7f8ff',
+                    textColor: '#303235',
+                    showAvatar: true,
+                    avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png'
+                },
+                userMessage: {
+                    backgroundColor: '#3B81F6',
+                    textColor: '#ffffff',
+                    showAvatar: true,
+                    avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png'
+                },
+                textInput: {
+                    placeholder: 'Type your question',
+                    backgroundColor: '#ffffff',
+                    textColor: '#303235',
+                    sendButtonColor: '#3B81F6',
+                    maxChars: 50,
+                    maxCharsWarningMessage: 'You exceeded the characters limit. Please input less than 50 characters.',
+                    autoFocus: true,
+                    sendMessageSound: true,
+                    sendSoundLocation: 'send_message.mp3',
+                    receiveMessageSound: true,
+                    receiveSoundLocation: 'receive_message.mp3'
+                },
+                feedback: {
+                    color: '#303235'
+                },
+                dateTimeToggle: {
+                    date: true,
+                    time: true
+                },
+                footer: {
+                    textColor: '#303235',
+                    text: 'Powered by',
+                    company: 'Flowise',
+                    companyLink: 'https://flowiseai.com'
+                }
+            }
+        }
+    })
+</script>
+
+
+</body>
+</html>
